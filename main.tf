@@ -1,6 +1,13 @@
-resource "github_repository" "example2" {
+resource "github_repository" "git_repo_create" {
   name        = "karunakar-terraform-gitrepos"
   description = "Create git repo using terraform"
+
+  visibility = "public"
+}
+
+resource "github_repository" "git_repo_terraformdemos" {
+  name        = "karunakar-terraform-terraformdemos"
+  description = "Provision azure infra using terraform"
 
   visibility = "public"
 }
