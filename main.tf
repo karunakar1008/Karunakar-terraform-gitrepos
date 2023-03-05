@@ -1,4 +1,4 @@
-resource "github_repository" "git_repo_create" {
+resource "github_repository" "git_repo_to_create_gitrepos" {
   name        = "karunakar-terraform-gitrepos"
   description = "Create git repo using terraform"
 
